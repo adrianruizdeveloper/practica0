@@ -1,0 +1,33 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3e92fb6[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,26 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="es">[m
+[32m+[m[32m<head>[m
+[32m+[m	[32m<title>Práctica 0: Introducción a Git y sus comandos</title>[m
+[32m+[m	[32m<meta charset="utf-8">[m
+[32m+[m	[32m<meta content="Adrián Ruiz Martínez">[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m<h1>Práctica 0: Introducción a Git y sus comandos</h1>[m
+[32m+[m[32m<h2>1. Diferencias entre Sistema de control de versiones locales, centralizados y distribuidos</h2>[m
+[32m+[m[32m<p>Centrados</p>[m
+[32m+[m[32m<p>Cuando se desarrollaron los sistemas de control de versiones, muchos de ellos se hicieron en esquema cliente-servidor, con lo que el desarrollo de las herramientas está claramente diferenciado entre:</p>[m
+[32m+[m[32m<ul>[m
+[32m+[m	[32m<LI>el cliente, que es la aplicación que se conecta al servidor y mantiene una copia local del repositorio, así como se encarga, generalmente de la corrección de conflictos y la mayoría de lógica del sistema.</LI>[m
+[32m+[m	[32m<li>el servidor, que es el sistema que toma los datos del cliente y los almacena a espera de una o múltiples peticiones de esos datos. Este sistema se encargaría del almacenamiento de las versiones, control de concurrencia, bloqueos y otras características parecidas a las de las bases de datos</li>[m
+[32m+[m[32m</ul>[m
+[32m+[m
+[32m+[m[32m<P>Distribuidos</P>[m
+[32m+[m[32m<p>Desarrolladores como Linus Torvalds, Eric S. Raymond y otros más, han desarrollado sistemas distribuidos de control de versiones tales como git, Baazaar, Mercurial, darcs, … estos sistemas se destacan por haber sido desarrollados en un formato distribuido, esto quiere decir que, en sí, no hay un servidor que mantenga una copia del repositorio, sino que está mantenida entre los clientes que estén en uso del repositorio y, al igual que los clientes P2P, mientras más desarrolladores haya conectados, mejor conectividad habrá entre todos.</p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<h2>Qué es GitHub y cuáles son sus utilidades</h2>[m
+[32m+[m
+[32m+[m[32m<p>GitHub aloja tu repositorio de código y te brinda herramientas muy útiles para el trabajo en equipo, dentro de un proyecto.Además de eso, puedes contribuir a mejorar el software de los demás. Para poder alcanzar esta meta, GitHub provee de funcionalidades para hacer un fork y solicitar pulls.Realizar un fork es simplemente clonar un repositorio ajeno (genera una copia en tu cuenta), para eliminar algún bug o modificar cosas de él. Una vez realizadas tus modificaciones puedes enviar un pull al dueño del proyecto. Éste podrá analizar los cambios que has realizado fácilmente, y si considera interesante tu contribución, adjuntarlo con el repositorio original.</p>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
